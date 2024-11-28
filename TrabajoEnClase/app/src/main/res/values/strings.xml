@@ -1,0 +1,4 @@
+<resources>
+    <string name="welcome_portrait">Hello, welcome to Portrait mode! (EN)</string>
+    <string name="welcome_landscape">Welcome! You're in Landscape mode. (EN)</string>
+</resources>

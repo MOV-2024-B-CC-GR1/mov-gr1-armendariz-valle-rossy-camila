@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "428485800344",
+    "project_id": "cc-2024b-mov-gr1-avra",
+    "storage_bucket": "cc-2024b-mov-gr1-avra.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428485800344:android:7afdd9f0da595008f37bed",
+        "android_client_info": {
+          "package_name": "com.example.ccgr12024b_avra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwGdBopr6T1P0X_3r7-jLds3Jzuf8iFJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

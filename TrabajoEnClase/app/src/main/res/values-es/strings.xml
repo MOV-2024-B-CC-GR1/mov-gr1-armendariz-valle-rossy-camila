@@ -1,0 +1,4 @@
+<resources>
+    <string name="welcome_portrait">¡Hola! Bienvenido al modo vertical. (ES)</string>
+    <string name="welcome_landscape">¡Hola! Estás en modo horizontal. (ES)</string>
+</resources>
