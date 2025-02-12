@@ -1,0 +1,30 @@
+<resources>
+    <!-- Colores Primarios (Brillantes y llamativos) -->
+    <color name="primary">#FF4081</color> <!-- Rosa fuerte -->
+    <color name="primary_light">#FF80AB</color> <!-- Rosa más claro -->
+    <color name="primary_dark">#C60055</color> <!-- Rosa oscuro -->
+
+    <!-- Colores Secundarios -->
+    <color name="secondary">#00B0FF</color> <!-- Azul brillante -->
+    <color name="secondary_light">#69E2FF</color> <!-- Azul más claro -->
+    <color name="secondary_dark">#0081CB</color> <!-- Azul oscuro -->
+
+    <!-- Fondo y Texto -->
+    <color name="background">#212121</color> <!-- Amarillo brillante -->
+    <color name="background_dark">#212121</color> <!-- Amarillo más intenso -->
+    <color name="text_primary">#FFFFFF</color> <!-- Negro/gris oscuro para alto contraste -->
+    <color name="text_secondary">#FFFFFF</color> <!-- Gris más claro para subtítulos -->
+
+    <!-- Botones -->
+    <color name="button_background">#0081CB</color> <!-- Naranja vibrante -->
+    <color name="button_text">#FFFFFF</color> <!-- Blanco para el texto en botones -->
+
+    <!-- Ruleta (Colores vibrantes y bien diferenciados) -->
+    <color name="roulette_red">#FF0000</color>   <!-- Rojo puro -->
+    <color name="roulette_blue">#2979FF</color>  <!-- Azul eléctrico -->
+    <color name="roulette_green">#00E676</color> <!-- Verde brillante -->
+    <color name="roulette_yellow">#FFD600</color> <!-- Amarillo fuerte -->
+    <color name="roulette_orange">#FF9100</color> <!-- Naranja fuerte -->
+    <color name="roulette_purple">#8E24AA</color> <!-- Morado intenso -->
+
+</resources>

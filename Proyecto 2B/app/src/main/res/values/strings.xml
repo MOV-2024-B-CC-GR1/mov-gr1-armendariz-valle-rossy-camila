@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Proyecto Ruleta</string>
+    <string name="roulette_name_hint">Nombre de la ruleta</string>
+    <string name="add_option">Agregar opción</string>
+    <string name="create_roulette">Crear Ruleta</string>
+    <string name="view_saved_roulettes">Ver Ruletas Guardadas</string>
+    <string name="logo_desc">Logo de la aplicación</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Tema Principal -->
+    <style name="Theme.ProyectoRuleta" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:colorBackground">@color/background</item> <!-- Corregido -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
+
+    <!-- Estilo de Botones -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Button</item> <!-- ✅ Correcto -->
+    </style>
+
+    <!-- Forma de los botones -->
+    <style name="ShapeAppearance.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">16dp</item> <!-- ✅ Aplica esquinas redondeadas -->
+    </style>
+</resources>

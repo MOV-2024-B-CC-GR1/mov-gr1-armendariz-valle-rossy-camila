@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_dark">
+
+    <!-- Ruleta -->
+    <com.example.proyecto_ruleta.RouletteWheelView
+        android:id="@+id/rouletteWheel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnSpin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Puntero -->
+    <ImageView
+        android:id="@+id/ivPointer"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="Puntero de la ruleta"
+        android:src="@drawable/pointer"
+        app:layout_constraintBottom_toTopOf="@id/rouletteWheel"
+        app:layout_constraintStart_toStartOf="@id/rouletteWheel"
+        app:layout_constraintEnd_toEndOf="@id/rouletteWheel"
+        android:layout_marginBottom="-5dp"/>
+
+    <!-- Botón Girar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSpin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GIRAR"
+        style="@style/ButtonStyle"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

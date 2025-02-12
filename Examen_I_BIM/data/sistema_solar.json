@@ -1,0 +1,23 @@
+{
+  "nombre": "Sistema Solar",
+  "galaxia": "Vía Láctea",
+  "edad": 4.6,
+  "habitabilidad": true,
+  "fechaDescubrimiento": "1543-05-24",
+  "planetas": [
+    {
+      "nombre": "Marte",
+      "tipo": "Rocoso",
+      "distanciaAlSol": 1.0,
+      "habitabilidad": true,
+      "numeroSatelites": 2
+    },
+    {
+      "nombre": "Saturno",
+      "tipo": "Gaseoso",
+      "distanciaAlSol": 18.0,
+      "habitabilidad": false,
+      "numeroSatelites": 1
+    }
+  ]
+}

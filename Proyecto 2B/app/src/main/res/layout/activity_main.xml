@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- Logo de la aplicación -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="229dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Nombre de la ruleta -->
+    <EditText
+        android:id="@+id/etRouletteName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/roulette_name_hint"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:backgroundTint="@color/primary_light"
+        android:textSize="16sp"
+        android:textColor="@color/text_primary"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/logoImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Contenedor de opciones con ScrollView -->
+
+    <!-- Contenedor de botones Fijos en la parte inferior -->
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Opciones de la ruleta"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/buttonContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etRouletteName"
+        app:layout_constraintVertical_bias="0.26">
+
+        <LinearLayout
+            android:id="@+id/optionsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Botón para agregar opción -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddOption"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/add_option"
+            android:textSize="16sp" />
+
+        <!-- Botón para crear la ruleta -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGenerateRoulette"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/create_roulette"
+            android:textSize="16sp" />
+
+        <!-- Botón para ver ruletas guardadas -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewSavedRoulettes"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_saved_roulettes"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
